@@ -1,3 +1,4 @@
+// problem : print the odd number using for loop....
 public class oddnumbers {
 }
 public static void main(String[] args){
