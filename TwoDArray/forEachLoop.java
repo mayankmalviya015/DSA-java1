@@ -5,14 +5,14 @@ public class forEachLoop {
         int[][] arr = new int[2][3];
         Scanner sc = new Scanner(System.in);
 
-        // ❗ input (for-each se possible nahi)
+        // input
         for(int i = 0; i < arr.length; i++){
             for(int j = 0; j < arr[0].length; j++){
                 arr[i][j] = sc.nextInt();
             }
         }
 
-        // ✔ output (for-each)
+        //  output (for-each)
         for(int[] row : arr){
             for(int x : row){
                 System.out.print(x + " ");
