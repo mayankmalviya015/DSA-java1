@@ -14,6 +14,7 @@ public class TransposeOfArray {
             for(int j =0 ; j <m;j++){
                 System.out.print(brr[i][j]+ " ");
         }
-System.out.println();
+     System.out.println();
     }
-    }}
+    }
+}
