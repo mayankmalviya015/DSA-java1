@@ -22,7 +22,7 @@ The following topics will be covered step by step as part of my learning journey
 I will update this section as I complete each topic:
 - Basics
 - Loops
-- ____________________
+- Arrays
 - ____________________
 - ____________________
 
