@@ -11,9 +11,8 @@ public class ScoreAfterFlipingMatrix {
                     }
                 }
             }
-
             for(int j = 1 ; j< n ; j++){            
-                 int noOfZeroes =0 ;
+            int noOfZeroes =0 ;
             int noOfOnes =0;
                 for(int i = 0 ; i<m ; i ++){
                     if(arr[i][j] ==0) noOfZeroes++;
