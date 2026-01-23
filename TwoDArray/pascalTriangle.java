@@ -17,7 +17,6 @@ public class pascalTriangle {
                 } else {
                     l.add(ans.get(i - 1).get(j) + ans.get(i - 1).get(j - 1));
                 }
-                System.out.println("");
             }
 
             ans.add(l);
