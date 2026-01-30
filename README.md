@@ -10,7 +10,7 @@ The following topics will be covered step by step as part of my learning journey
 - pattern printing
 - OOPS
 - Strings
-- time & complexity
+- time & complexity.
 - Linked List
 - Stack & Queue
 - Recursion
