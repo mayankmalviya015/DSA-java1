@@ -2,6 +2,7 @@
 
 This repository contains my daily DSA practice using Java.
 
+
 ## Topics to be Covered
 In this repository, I will practice and implement Data Structures and Algorithms in Java.  
 The following topics will be covered step by step as part of my learning journey:
@@ -30,3 +31,4 @@ I will update this section as I complete each topic:
 
 ## Goal
 To crack company interviews.
+
