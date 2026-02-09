@@ -11,7 +11,7 @@ The following topics will be covered step by step as part of my learning journey
 - pattern printing
 - OOPS
 - Strings
-- time & complexity.
+- time & space complexity.
 - Linked List
 - Stack & Queue
 - Recursion
@@ -26,6 +26,7 @@ I will update this section as I complete each topic:
 - Loops
 - Arrays
 - Strings
+- time & space complexity
 - ____________________
 - ____________________
 
