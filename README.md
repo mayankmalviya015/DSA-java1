@@ -31,5 +31,5 @@ I will update this section as I complete each topic:
 - ____________________
 
 ## Goal
-To crack company interviews.
+To crack company interviews..
 
