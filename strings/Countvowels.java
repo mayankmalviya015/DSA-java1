@@ -14,3 +14,4 @@ public class Countvowels {
         System.out.println(count);
         }
     }
+
