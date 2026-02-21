@@ -28,7 +28,7 @@ I will update this section as I complete each topic:
 - Strings
 - time & space complexity.
 - Sorting methods
-- binary Search
+- binary Search.
 - ____________________
 - ____________________
 
