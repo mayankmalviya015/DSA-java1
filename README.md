@@ -29,6 +29,7 @@ I will update this section as I complete each topic:
 - time & space complexity.
 - Sorting methods
 - binary Search.
+- recursion.
 - ____________________
 - ____________________
 
