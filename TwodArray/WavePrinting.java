@@ -25,7 +25,6 @@ public class WavePrinting {
                     System.out.print(arr[i][j]+ " ");
             }
         }
-
     }
  }
 }
