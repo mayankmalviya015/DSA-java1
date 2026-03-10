@@ -1,4 +1,14 @@
-public class mergeSort {
+public class inversionsCount {
+    static int count =0;
+    public static void inversion(int[] first ,int[] second){
+        int i=0,j=0;
+        while(i<first.length && j<second.length)
+            if(first[i]>second[j]){
+                count += first.length-i;
+                j++;
+            }
+            else i++;
+    }
     public static void merge2array(int[] first ,int[] second, int[] arr){
         int a =first.length ,b= second.length;
             int i=0, j =0 , k= 0 ;
@@ -9,7 +19,7 @@ public class mergeSort {
                 i++;
             }
             else { //first[i] >second[j]
-                
+                // count += first.length -i;
                 arr[k] = second[j];
                k++;
                j++;
@@ -42,15 +52,13 @@ public class mergeSort {
             // apply recursion....
             merge(first);
             merge(second);
+            inversion(first,second);
             // merge two sorted array.
             merge2array(first,second,arr);
         }
     public static void main(String[] args) {
-        int[] arr= {14, 52 ,1 ,96 ,55 ,42};
+        int[] arr= {8 ,2 ,5 ,3 ,1 ,4};
         merge(arr);
-        for(int ele : arr){
-            System.out.print(ele+ " ");
-        }
-
+        System.out.println(count);
     }
 }
