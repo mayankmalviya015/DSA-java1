@@ -35,11 +35,11 @@ public class findKthLargest {
     }
     public static void sort(int[] arr ,int lo, int hi ,int k){
         if(lo>hi) return;
-        if(lo==hi){
-            if(k-1==lo){
-            ans = arr[lo];
-            return;}
-        }
+        // if(lo==hi){ not need
+        //     if(k-1==lo){
+        //     ans = arr[lo];
+        //     return;}
+        // }
         int idx =partition(arr,lo,hi);
         if(idx==k-1){
             ans = arr[idx];
