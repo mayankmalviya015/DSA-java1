@@ -15,6 +15,5 @@ public class LowerBound {
                      {lo =mid+1;}
             }
             System.err.println(lb);
-        
         }
     }
