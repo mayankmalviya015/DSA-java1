@@ -5,11 +5,16 @@ class Node {
         this.value = value;
     }
 }
-
-// basic of linked list........................
-
-public class Linked_List{
+public class shallowcopy {
+    public static void print(Node head){
+               Node temp =head;
+        while(temp != null) {
+            System.out.println(temp.value);
+            temp = temp.next;
+        }
+    }
     public static void main(String[] args) {
+        
         Node a = new Node(10);
         Node b = new Node(20);
         Node c = new Node(30);
@@ -23,13 +28,6 @@ public class Linked_List{
         d.next =e; //a-> b -> c -> d -> e
         e.next =f; //a-> b -> c -> d -> e -> f
         f.next =g; //a-> b -> c -> d -> e ->f -> g
-        System.out.println(a.value);
-        System.out.println(a.next.value);
-        System.out.println(a.next.next.value);
-        System.out.println(a.next.next.next.value);
-        System.out.println(a.next.next.next.next.value);
-        System.out.println(a.next.next.next.next.next.value);
-        System.out.println(a.next.next.next.next.next.next.value);
-        System.out.println(a.next.next.next.next.next.next.next.value);
-     }
+        print(a);
+    }
 }
