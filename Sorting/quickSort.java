@@ -21,13 +21,13 @@ public class quickSort {
         int correctidx = pivotidx + count;
         swap(arr,pivotidx,correctidx);
         //partition
-        // int i = lo;
-        // int j = hi;
-        // while(i< correctidx && j>correctidx){
-        //     if(arr[i]<=pivot)i++;
-        //     else if(arr[j] >pivot)j--;
-        //     else if(arr[i]>pivot&&arr[j]<pivot) swap(arr,i,j);
-        // }
+        int i = lo;
+        int j = hi;
+        while(i< correctidx && j>correctidx){
+            if(arr[i]<=pivot)i++;
+            else if(arr[j] >pivot)j--;
+            else if(arr[i]>pivot&&arr[j]<pivot) swap(arr,i,j);
+        }
         return  correctidx;
     }
     public static void sort(int[] arr ,int lo, int hi){

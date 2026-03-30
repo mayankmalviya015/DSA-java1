@@ -13,8 +13,6 @@ public class StoreStudentImformation {
                     System.out.print(x + " ");
                 }
                 System.out.println();
-                
-                
             }
         }
     }

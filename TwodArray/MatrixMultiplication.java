@@ -25,7 +25,6 @@ public class MatrixMultiplication {
             } print(a);
         print(b);
         print(c);
-        
         }
     }
 }
