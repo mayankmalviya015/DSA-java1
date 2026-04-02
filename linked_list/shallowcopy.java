@@ -13,6 +13,11 @@ public class shallowcopy {
             temp = temp.next;
         }
     }
+    public static void displayrecursive(Node head){
+        if(head==null) return;
+        System.out.println(head.value);
+        displayrecursive(head.next);
+    }
     public static void main(String[] args) {
         
         Node a = new Node(10);
@@ -28,6 +33,6 @@ public class shallowcopy {
         d.next =e; //a-> b -> c -> d -> e
         e.next =f; //a-> b -> c -> d -> e -> f
         f.next =g; //a-> b -> c -> d -> e ->f -> g
-        print(a);
+        displayrecursive(a);
     }
 }
