@@ -7,7 +7,7 @@ class Node {
 }
 public class shallowcopy {
     public static void print(Node head){
-               Node temp =head;
+        Node temp =head;
         while(temp != null) {
             System.out.println(temp.value);
             temp = temp.next;

@@ -5,10 +5,10 @@ class Node {
         this.value = value;
     }
 }
-
 // basic of linked list........................
 
 public class Linked_List{
+    
     public static void main(String[] args) {
         Node a = new Node(10);
         Node b = new Node(20);
