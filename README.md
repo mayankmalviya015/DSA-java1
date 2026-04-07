@@ -30,6 +30,7 @@ I will update this section as I complete each topic:
 - Sorting methods
 - binary Search.
 - recursion.
+- Linked List.
 - ____________________
 - ____________________
 
