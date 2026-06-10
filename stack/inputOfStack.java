@@ -6,7 +6,9 @@ public class inputOfStack {
         Stack<Integer> st = new Stack<>();
         System.out.println("enter you stack size");
         int n = sc.nextInt();
+        System.out.println("enter you stack Element");
         for (int i = 0; i < n; i++) {
+
             int x = sc.nextInt();
             st.push(x);
         }
