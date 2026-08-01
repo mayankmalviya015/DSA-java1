@@ -10,7 +10,7 @@ public class CopyElements {
         st.push(6);
         System.out.println(st);
         Stack<Integer> gt = new Stack<>();
-        while(st.size()>0){
+        while(st.size() > 0 ){
             gt.push(st.pop());
         }
         Stack<Integer> rt = new Stack<>();
