@@ -4,7 +4,7 @@ import java.util.*;
 public class  infix{
     public static void main(String[] args) {
 
-        String str ="9-(5+3)*4/6";
+        String str ="9*6+5/3-8";
 
         Stack<Integer> val = new Stack<>();
         Stack<Character> op = new Stack<>();
