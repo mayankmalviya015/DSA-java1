@@ -32,6 +32,5 @@ public class FindSum {
         System.out.print(root.val + " ");
         display(root.left);
         display(root.right);
-      
     }
 }
