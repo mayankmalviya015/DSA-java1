@@ -31,6 +31,8 @@ I will update this section as I complete each topic:
 - binary Search.
 - recursion.
 - Linked List.
+- Stack & Queue
+- binary tree
 - ____________________
 - ____________________
 
